@@ -10,7 +10,7 @@ body {
   background-color: #c6c4d1;
     font-family: "Lato";
     font-weight: 300;
-    font-size: 16px;
+    font-size: 20px;
     color: #555;
 
     -webkit-font-smoothing: antialiased;
@@ -100,7 +100,9 @@ a:after {
 }
 
 #topbar-inner {
-	background: #111;
+	/*background: #111;*/
+	background-image:url(../img/ciel4.jpg) ;
+	background-size:cover;
 	line-height: 0;
 	text-align: center;
 }
@@ -140,6 +142,8 @@ a:after {
 
 	#section-topbar ul#nav a:hover {
 	  background: #222;
+		/*background-image:url(../img/ciel4.jpg) ;*/
+		/*background-size:cover;*/
 	  text-decoration: none;
 	  border-left: 1px solid #111;
 	}
@@ -161,7 +165,8 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/vero2.jpg) no-repeat center top;
+	background-image: url(../img/vero2.jpg);
+
 	background-color:#99A1A9;
 	margin-top: 60px;
 	padding-top:140px;
@@ -195,7 +200,10 @@ a:after {
 /* Intnro Wrap */
 
 #intro {
-	background: #2c3e50;
+	/*background: #2c3e50;*/
+	background-image:url(../img/ciel-etoile-or1.jpg) ;
+	background-size:cover;
+
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -214,7 +222,9 @@ a:after {
 
 
 #skillswrap {
-	background: #2c3e50;
+	/*background: #2c3e50;*/
+	background-image:url(../img/ciel-etoile-or1.jpg) ;
+	background-size:cover;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -226,6 +236,8 @@ a:after {
 
 #footwrap {
 	background: #2f2f2f;
+	/*background-image:url(../img/ciel4.jpg) ;*/
+	/*background-size:cover;*/
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -270,6 +282,7 @@ a:after {
 
 .desc p {
 	color: #2f2f2f;
+
 }
 
 .desc t {
@@ -284,7 +297,9 @@ a:after {
 }
 
 .desc more {
-	color: #95a5a6;
+	color: #374546;
+
+
 }
 
 
